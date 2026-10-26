@@ -18,11 +18,9 @@ class CorperVerse extends StatelessWidget {
         getPages: Pages.routes,
         //initialBinding: InitialBinding(),
         debugShowCheckedModeBanner: false,
-        defaultTransition: Transition.rightToLeft,
-
-        themeMode: ThemeMode.system,
+        defaultTransition: Transition.fade,
+        themeMode: ThemeMode.dark,
       ),
     );
-    ;
   }
 }
